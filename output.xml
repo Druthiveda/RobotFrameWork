@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230923 21:15:28.353" rpa="false" schemaversion="4">
+<suite id="s1" name="TC 01 Start Close Browser" source="C:\Users\kdruthiv\PycharmProjects\RobotFrameworkPrac\TC_01_Start_Close_Browser.robot">
+<test id="s1-t1" name="TC_01 Browser Start and Close" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230923 21:15:28.784" level="INFO">Opening browser 'FireFox' to base url 'https:thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20230923 21:15:28.783" endtime="20230923 21:15:39.333"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230923 21:15:39.333" endtime="20230923 21:15:41.754"/>
+</kw>
+<status status="PASS" starttime="20230923 21:15:28.782" endtime="20230923 21:15:41.754"/>
+</test>
+<status status="PASS" starttime="20230923 21:15:28.356" endtime="20230923 21:15:41.754"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC 01 Start Close Browser">TC 01 Start Close Browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
