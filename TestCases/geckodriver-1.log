@@ -1,0 +1,15 @@
+1696852965626	geckodriver	INFO	Listening on 127.0.0.1:65168
+1696852966129	mozrunner::runner	INFO	Running command: "C:\\Users\\kdruthiv\\.cache\\selenium\\firefox\\win64\\118.0.1\\firefox.exe" "--marionette" "--remote-debug ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kdruthiv\\AppData\\Local\\Temp\\rust_mozprofile3Mm4mZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696852967654	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1696852967876	Marionette	INFO	Listening on port 65199
+WebDriver BiDi listening on ws://127.0.0.1:65169
+Read port: 65199
+1696852968096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65169/devtools/browser/301fc010-647f-499b-bbc4-dcfb32ac9aca
+1696852975228	Marionette	INFO	Stopped listening on port 65199
+Dynamically enable window occlusion 1
+console.error: Policies.jsm: 
+  Download failed - ERROR_NETWORK_FAILURE - https://ffextension.nexthink.com/nexthink-latest-an-fx.xpi
